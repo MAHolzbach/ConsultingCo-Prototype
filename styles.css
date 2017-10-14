@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background: #4fc3f7;
+}
+nav {
+  background: #4fc3f7;
+  border: none;
+}
+.navbar-fixed li a:hover {
+  background: none;
+  color: lime;
+}
+.navbar-fixed li a {
+  font-size: 26px;
+}
+#logo {
+  font-size: 45px;
+}
+.landing {
+  background: url("http://3.bp.blogspot.com/-oV2c81gGLms/UUD7dThVqiI/AAAAAAAASJU/y05eC8zjswo/s1600/20111009-%252807_08_56%2529-sierras-5d2-7923And2more-Edit-Edit.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  color: white;
+}
+.landing-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title-name {
+  font-size: 12vh;
+  color: white;
+}
+.blue-section {
+  background: #4fc3f7;
+  height: auto;
+  /*display: flex;
+	justify-content: center;
+	align-items: center;*/
+}
+.white-section {
+  background: white;
+  height: auto;
+  /*display: flex;
+	justify-content: center;
+	align-items: center;*/
+}
+/* label color */
+.blue-section .container .input-field input {
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 0 0 black;
+  color: black;
+}
+.blue-section .container .input-field label {
+  font-size: 22px;
+  color: black;
+}
+/* label focus color */
+.blue-section .container .input-field input:focus + label {
+  color: black;
+}
+/* label underline focus color */
+.blue-section .container .input-field input:focus {
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 0 0 black;
+}
+/* valid color */
+.blue-section .container .input-field input.valid {
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 0 0 black;
+}
+/* invalid color */
+.blue-section .container .input-field input.invalid {
+  border-bottom: 1px solid red;
+  box-shadow: 0 1px 0 0 red;
+}
+/* icon prefix focus color */
+.blue-section .container .input-field .prefix.active {
+  color: black;
+}
+.blue-section .container .materialize-textarea {
+  color: black;
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 0 0 black;
+}
+.blue-section .container .input-field textarea:focus + label {
+  color: black;
+}
+.blue-section .container .input-field textarea:focus {
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 0 0 black;
+}
+.who-pic {
+  max-width: 50%;
+  max-height: 50%;
+}
+#fade-in {
+  opacity: 0;
+}
